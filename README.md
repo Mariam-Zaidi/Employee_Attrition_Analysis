@@ -6,6 +6,8 @@ This project aims to analyze and predict employee attrition using a combination 
 ---
 
 ## 📁 Dataset Overview
+Kaggle link : https://www.kaggle.com/datasets/vjchoudhary7/hr-analytics-case-study/data
+
 
 The dataset includes:
 - `general_data.csv`: Demographics, job role, income, performance.
