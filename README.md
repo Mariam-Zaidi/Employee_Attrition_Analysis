@@ -55,31 +55,21 @@ were used to uncover patterns.
 
 ---
 
-## 🤖 Models Used
-Model       	            	|Purpose  	                  Highlights   
+## 🤖 Models Used      	            	
 		
-Logistic Regression     	|Baseline classification    	Interpretable coefficients               
-Decision Tree Classifier	|Gini-based feature split   	Easy to visualize, moderate accuracy     
-Random Forest           	|Ensemble model             	Better accuracy, handles non-linearity   
-XGBoost Classifier      	|Gradient boosting          	Strongest performance                    
-		
+Logistic Regression     	            
+Decision Tree Classifier	  
+Random Forest           	  
+XGBoost Classifier      
 
 ---
 
 ## 📈 Model Evaluation
-For Training data
-	Accuracy 	Sensitivity 	Specificity	Precision	Recall
-Logistic Regression     	77.1	77	77.3	77.2	77
-Decision Tree Classifier	100	100	100	100	100
-Random Forest           	100	100	100	100	100
-XGBoost Classifier      	100	100	100	100	100
-
-For Testing Data
-	Accuracy 	Sensitivity 	Specificity	Precision	Recall
-Logistic Regression     	75.8	60.2	77.5	34	66
-Decision Tree Classifier	96.2	91.4	97.1	84.9	91.4
-Random Forest           	98.8	95.4	99.4	96.9	95.4
-XGBoost Classifier      	98.8	95.4	99.4	96.9	95.4
+Models were evaluated using:
+- Accuracy
+- Precision / Recall
+- ROC-AUC
+- Confusion Matrix
 
 ## HyperParameter Tuning:
 Hyperparameter tuning was performed using GridSearchCV and RandomSearchCV to tune the models to obtain best results.
