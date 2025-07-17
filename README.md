@@ -56,12 +56,12 @@ were used to uncover patterns.
 ---
 
 ## 🤖 Models Used
-Model       	            Purpose  	                  Highlights   
+Model       	            	|Purpose  	                  Highlights   
 		
-Logistic Regression     	Baseline classification    	Interpretable coefficients               
-Decision Tree Classifier	Gini-based feature split   	Easy to visualize, moderate accuracy     
-Random Forest           	Ensemble model             	Better accuracy, handles non-linearity   
-XGBoost Classifier      	Gradient boosting          	Strongest performance                    
+Logistic Regression     	|Baseline classification    	Interpretable coefficients               
+Decision Tree Classifier	|Gini-based feature split   	Easy to visualize, moderate accuracy     
+Random Forest           	|Ensemble model             	Better accuracy, handles non-linearity   
+XGBoost Classifier      	|Gradient boosting          	Strongest performance                    
 		
 
 ---
